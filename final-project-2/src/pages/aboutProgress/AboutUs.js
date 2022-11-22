@@ -3,10 +3,10 @@ import './Styles.css'
 
 function AboutUs() {
   return (
-    <div className='about-progress'>
+    <div className='about-progress vh-100'>
         <div className="container mt-5 mb-3">
         
-            <div className="row">
+            <div className="row py-5">
                 <div className="col-md-4">
                     <div className="card p-3 mb-2">
                         <div className="d-flex justify-content-between">
@@ -47,11 +47,12 @@ function AboutUs() {
                         <p className="mb-0">Admin Page</p>
                         <p className="mb-0">Styling Layout</p>
                         <p className="mb-0">About</p>
+                        <p className="mb-0">Error Page</p>
                             <div className="mt-5">
                             <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{width: "40%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar" role="progressbar" style={{width: "80%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div className="mt-3"> <span className="text1">1 solved <span className="text2">of 3 task</span></span> </div>
+                                <div className="mt-3"> <span className="text1">3 solved <span className="text2">of 4 task</span></span> </div>
                             </div>
                         </div>
                     </div>
@@ -68,14 +69,15 @@ function AboutUs() {
                             <div className="badge"> <span>Mentoring ✓</span> </div>
                         </div>
                         <div className="mt-5">
-                        <p className="mb-0">Product, Cart, Checkout</p>
+                        <p className="mb-0">Product, Cart</p>
+                        <p className="mb-0">Checkout</p>
                         <p className="mb-0">Styling Layout</p>
                         <p className="mb-0">Footer</p>
                             <div className="mt-5">
                             <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{width: "80%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar" role="progressbar" style={{width: "100%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div className="mt-3"> <span className="text1">4 solved <span className="text2">of 6 task</span></span> </div>
+                                <div className="mt-3"> <span className="text1">6 solved <span className="text2">of 6 task</span></span> </div>
                             </div>
                         </div>
                     </div>

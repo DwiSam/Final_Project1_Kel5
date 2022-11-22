@@ -12,9 +12,10 @@ const Login = ({ setToken }) => {
     setPassword("");
     setUsername("");
     setError("");
-    if(username == 'admin' && password == 'admin123'){
+    if(username === 'admin' && password === 'admin123'){
       localStorage.setItem("userToken", 'IM_ADMIN')
-      nav("/admin")
+      nav("/Admin")
+      window.location.reload()
     }else{
       axios({
         url: "https://fakestoreapi.com/auth/login",
