@@ -144,7 +144,7 @@ function Recap() {
                                     <td></td>
                                     <td>Total</td>
                                     <td>
-                                        Sold item(s): <b>{cartTotalQuantity}</b>
+                                        Cart item(s): <b>{cartTotalQuantity}</b>
                                     </td>
                                     <td>
                                         <b>{`$${cartTotalPrice.toFixed(2)}`}</b>

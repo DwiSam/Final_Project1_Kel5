@@ -50,9 +50,9 @@ function AboutUs() {
                         <p className="mb-0">Error Page</p>
                             <div className="mt-5">
                             <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{width: "80%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar" role="progressbar" style={{width: "50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div className="mt-3"> <span className="text1">3 solved <span className="text2">of 4 task</span></span> </div>
+                                <div className="mt-3"> <span className="text1">2 solved <span className="text2">of 3 task</span></span> </div>
                             </div>
                         </div>
                     </div>
@@ -75,9 +75,9 @@ function AboutUs() {
                         <p className="mb-0">Footer</p>
                             <div className="mt-5">
                             <div className="progress">
-                                    <div className="progress-bar" role="progressbar" style={{width: "100%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div className="progress-bar" role="progressbar" style={{width: "80%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <div className="mt-3"> <span className="text1">6 solved <span className="text2">of 6 task</span></span> </div>
+                                <div className="mt-3"> <span className="text1">4 solved <span className="text2">of 6 task</span></span> </div>
                             </div>
                         </div>
                     </div>
