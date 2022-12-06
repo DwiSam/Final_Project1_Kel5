@@ -146,5 +146,6 @@ Berikut langkah-langkah untuk instalasi aplikasi Travelin.
    </ol>
    </details>
 5. Demo aplikasi
+6. Get Apps [Travelin.](https://drive.google.com/drive/folders/1dMhrv33Gr3CEHWLYAeT8SI69btwic8Z2?usp=sharing)
 
 <br/>
