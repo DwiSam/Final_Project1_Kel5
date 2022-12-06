@@ -7,43 +7,47 @@ import SplashScreen from "../screens/splash/SplashScreen";
 import BaliSection from "../screens/section/BaliSection";
 import YogyakartaSection from "../screens/section/YogyakartaSection";
 import BandungSection from "../screens/section/BandungSection";
+import Detail from "../screens/detail/Detail";
+import Favorites from "../screens/favorites/Favorites";
+import Profile from "../screens/profile/Profile";
+import EditProfile from "../screens/profile/EditProfile";
 
 const HomeStack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
 const MainApp = () => {
-  return(
-    <Tab.Navigator 
+  return (
+    <Tab.Navigator
       screenOptions={{
         tabBarActiveTintColor: "#3FBC71",
         headerTintColor: "#ffffff",
       }}
     >
-      <Tab.Screen 
-        name="Home" 
-        component={Home} 
+      <Tab.Screen
+        name="Home"
+        component={Home}
         options={{
           tabBarLabel: "Home",
           tabBarIcon: ({ color, size }) => (
-            <Feather  name="home" color={color} size={size} />
+            <Feather name="home" color={color} size={size} />
           ),
           headerTitleAlign: "center",
         }}
       />
-      <Tab.Screen 
-        name="Search" 
-        component={Home} 
+      <Tab.Screen
+        name="Search"
+        component={Home}
         options={{
           tabBarLabel: "Search",
           tabBarIcon: ({ color, size }) => (
-            <Feather  name="search" color={color} size={size} />
+            <Feather name="search" color={color} size={size} />
           ),
           headerTitleAlign: "center",
         }}
       />
       <Tab.Screen
         name="Favorites"
-        component={Home}
+        component={Favorites}
         options={{
           tabBarLabel: "Favorites",
           tabBarIcon: ({ color, size }) => (
@@ -54,14 +58,14 @@ const MainApp = () => {
       />
       <Tab.Screen
         name="Profile"
-        component={Home}
-        options={({ navigation }) => ({
+        component={Profile}
+        options={{
           tabBarLabel: "Profile",
           tabBarIcon: ({ color, size }) => (
             <Feather name="user" color={color} size={size} />
           ),
           headerTitleAlign: "center",
-        })}
+        }}
       />
     </Tab.Navigator>
   );
@@ -95,21 +99,11 @@ const Navigation = () => {
         component={MainApp}
         options={{ headerShown: false }}
       />
-      <HomeStack.Screen
-        name="Bali"
-        component={BaliSection}
-        options={{ headerShown: false }}
-      />
-      <HomeStack.Screen
-        name="Yogyakarta"
-        component={YogyakartaSection}
-        options={{ headerShown: false }}
-      />
-      <HomeStack.Screen
-        name="Bandung"
-        component={BandungSection}
-        options={{ headerShown: false }}
-      />
+      <HomeStack.Screen name="Bali" component={BaliSection} />
+      <HomeStack.Screen name="Yogyakarta" component={YogyakartaSection} />
+      <HomeStack.Screen name="Bandung" component={BandungSection} />
+      <HomeStack.Screen name="Detail" component={Detail} />
+      <HomeStack.Screen name="EditProfile" component={EditProfile} />
     </HomeStack.Navigator>
   );
 };
