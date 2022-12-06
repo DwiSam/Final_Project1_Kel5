@@ -19,10 +19,6 @@ const Home = ({ navigation }) => {
           />
         </View>
         <PopularDestination navigation={navigation} />
-        <Button
-          title="Go to Login Page"
-          onPress={() => navigation.navigate("Login")}
-        />
       </ScrollView>
     </View>
   );

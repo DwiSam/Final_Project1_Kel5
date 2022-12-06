@@ -42,7 +42,6 @@
       </ul>
     </li>
     <li><a href="#presentasi">Presentasi</a></li>
-    <li><a href="#link-aplikasi">Link Aplikasi</a></li>
   </ol>
 </details>
 
@@ -73,8 +72,6 @@ Mentoring **telah dilaksanakan** pada:
 
 ## Tentang Project
 
-<img src="src/assets/tentang-project.png" alt="Logo" align="center">
-
 Travelin. adalah final project ke-3 dari kelompok 5 yang memiliki beberapa fitur diantaranya:
 
 - Login
@@ -85,8 +82,6 @@ Travelin. adalah final project ke-3 dari kelompok 5 yang memiliki beberapa fitur
 
 API yang digunakan:
 [Priceline com Provider API](https://rapidapi.com/tipsters/api/priceline-com-provider/) by Tipsters CO
-
-<br/>
 
 ### Mockup
 
@@ -153,6 +148,3 @@ Berikut langkah-langkah untuk instalasi aplikasi Travelin.
 5. Demo aplikasi
 
 <br/>
-
-## Link Aplikasi
-[Link File Aplikasi](https://drive.google.com/drive/folders/1dMhrv33Gr3CEHWLYAeT8SI69btwic8Z2?usp=sharing)
